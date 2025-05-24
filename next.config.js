@@ -1,9 +1,8 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+const repoName = 'Azasphere';
+module.exports = {
   output: "export",
-  images: {
-    unoptimized: true,
-  },
+  images: { unoptimized: true },
+  basePath: '/Azasphere',
+  assetPrefix: '/Azasphere/',
   reactStrictMode: true,
-};
-module.exports = nextConfig;
+}
